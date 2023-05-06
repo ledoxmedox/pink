@@ -1,0 +1,107 @@
+:root {
+--spice-button: #F067C3;
+--spice-button-active: #F067C3;
+}
+
+.encore-dark-theme .encore-bright-accent-set {
+    --background-base: #F067C3 !important;
+    --background-highlight: #F067C3 !important;
+    --background-press: #F067C3 !important;
+    --background-elevated-base: #F067C3 !important;
+    --background-elevated-highlight: #F067C3 !important;
+    --background-elevated-press: #F067C3 !important;
+    --background-tinted-base: #F067C3 !important;
+    --background-tinted-highlight: #F067C3 !important;
+    --background-tinted-press: #F067C3 !important;
+    --background-unsafe-for-small-text-base: #F067C3 !important;
+    --background-unsafe-for-small-text-highlight: #F067C3 !important;
+    --background-unsafe-for-small-text-press: #F067C3 !important;
+    --text-base: #000;
+    --text-subdued: #000;
+    --text-bright-accent: #000;
+    --text-negative: #000;
+    --text-warning: #000;
+    --text-positive: #000;
+    --text-announcement: #000;
+    --essential-base: #000;
+    --essential-subdued: #000;
+    --essential-bright-accent: #000;
+    --essential-negative: #000;
+    --essential-warning: #000;
+    --essential-positive: #000;
+    --essential-announcement: #000;
+    --decorative-base: #000;
+    --decorative-subdued: #d16cb0;
+}
+
+.main-genericButton-button.main-genericButton-buttonActive {
+    color: #F067C3 !important;
+}
+
+.main-genericButton-button.main-genericButton-buttonActive:focus, .main-genericButton-button.main-genericButton-buttonActive:hover {
+    color: #F067C3 !important;
+}
+
+.control-button--active {
+    color: #F067C3!important;
+}
+
+.encore-dark-theme, .encore-dark-theme .encore-base-set {
+    --background-base: #121212;
+    --background-highlight: #1a1a1a;
+    --background-press: #000;
+    --background-elevated-base: #242424;
+    --background-elevated-highlight: #2a2a2a;
+    --background-elevated-press: #000;
+    --background-tinted-base: hsla(0,0%,100%,.07);
+    --background-tinted-highlight: hsla(0,0%,100%,.1);
+    --background-tinted-press: hsla(0,0%,100%,.04);
+    --background-unsafe-for-small-text-base: #121212;
+    --background-unsafe-for-small-text-highlight: #121212;
+    --background-unsafe-for-small-text-press: #121212;
+    --text-base: #fff;
+    --text-subdued: #a7a7a7;
+    --text-bright-accent: #F067C3;
+    --text-negative: #f15e6c;
+    --text-warning: #ffa42b;
+    --text-positive: #1ed760;
+    --text-announcement: #3d91f4;
+    --essential-base: #fff;
+    --essential-subdued: #727272;
+    --essential-bright-accent: #1ed760;
+    --essential-negative: #e91429;
+    --essential-warning: #ffa42b;
+    --essential-positive: #1ed760;
+    --essential-announcement: #0d72ea;
+    --decorative-base: #fff;
+    --decorative-subdued: #292929;
+}
+
+.uWvwXlS0Da1bWsRX6KOw {
+    -webkit-margin-end: 10px;
+    filter: hue-rotate(180deg);
+    margin-inline-end: 10px;
+}
+
+.Svg-presentation-textBrightAccent-32-icon {
+    fill: #1abc54;
+}
+
+.lyrics-lyricsContent-lyric.lyrics-lyricsContent-active {
+    color: #F067C3;
+}
+
+.main-addButton-active {
+    color: #F067C3;
+}
+
+.main-trackList-playingIcon {
+    position: absolute;
+    filter: hue-rotate(180deg);
+}
+
+.x-settings-equalizerPanelWrapper {
+    height: 200px;
+    position: relative;
+    filter: hue-rotate(180deg);
+}
