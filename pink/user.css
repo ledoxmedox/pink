@@ -4,6 +4,7 @@
 }
 
 .encore-dark-theme .encore-bright-accent-set {
+/*    
     --background-base: #F067C3 !important;
     --background-highlight: #F067C3 !important;
     --background-press: #F067C3 !important;
@@ -16,6 +17,7 @@
     --background-unsafe-for-small-text-base: #F067C3 !important;
     --background-unsafe-for-small-text-highlight: #F067C3 !important;
     --background-unsafe-for-small-text-press: #F067C3 !important;
+*/
     --text-base: #000;
     --text-subdued: #000;
     --text-bright-accent: #000;
@@ -31,7 +33,8 @@
     --essential-positive: #000;
     --essential-announcement: #000;
     --decorative-base: #000;
-    --decorative-subdued: #d16cb0;
+    --decorative-subdued: #F067C3; 
+    filter: hue-rotate(180deg);
 }
 
 .main-genericButton-button.main-genericButton-buttonActive {
@@ -85,6 +88,7 @@
 
 .Svg-presentation-textBrightAccent-32-icon {
     fill: #1abc54;
+    filter: hue-rotate(180deg);
 }
 
 .lyrics-lyricsContent-lyric.lyrics-lyricsContent-active {
@@ -103,5 +107,15 @@
 .x-settings-equalizerPanelWrapper {
     height: 200px;
     position: relative;
+    filter: hue-rotate(180deg);
+}
+
+.Svg-img-32-icon * {
+    vector-effect: non-scaling-stroke;
+    filter: hue-rotate(180deg);
+}
+
+.main-actionBar-ActionBarRow>:not(:last-child) {
+    margin-right: 24px;
     filter: hue-rotate(180deg);
 }
