@@ -33,7 +33,9 @@
     --essential-positive: #000;
     --essential-announcement: #000;
     --decorative-base: #000;
+    /*
     --decorative-subdued: #F067C3; 
+    */
     filter: hue-rotate(180deg);
 }
 
@@ -117,5 +119,9 @@
 
 .main-actionBar-ActionBarRow>:not(:last-child) {
     margin-right: 24px;
+    filter: hue-rotate(180deg);
+}
+
+.Button-md-buttonPrimary-useBrowserDefaultFocusStyle {
     filter: hue-rotate(180deg);
 }
