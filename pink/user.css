@@ -1,127 +1,141 @@
 :root {
---spice-button: #F067C3;
---spice-button-active: #F067C3;
+    --default-green: #1DB954; /* do not change */
+    --your-color: #FF77D0;
+    --filter: hue-rotate(192deg); 
 }
 
-.encore-dark-theme .encore-bright-accent-set {
-/*    
-    --background-base: #F067C3 !important;
-    --background-highlight: #F067C3 !important;
-    --background-press: #F067C3 !important;
-    --background-elevated-base: #F067C3 !important;
-    --background-elevated-highlight: #F067C3 !important;
-    --background-elevated-press: #F067C3 !important;
-    --background-tinted-base: #F067C3 !important;
-    --background-tinted-highlight: #F067C3 !important;
-    --background-tinted-press: #F067C3 !important;
-    --background-unsafe-for-small-text-base: #F067C3 !important;
-    --background-unsafe-for-small-text-highlight: #F067C3 !important;
-    --background-unsafe-for-small-text-press: #F067C3 !important;
-*/
-    --text-base: #000;
-    --text-subdued: #000;
-    --text-bright-accent: #000;
-    --text-negative: #000;
-    --text-warning: #000;
-    --text-positive: #000;
-    --text-announcement: #000;
-    --essential-base: #000;
-    --essential-subdued: #000;
-    --essential-bright-accent: #000;
-    --essential-negative: #000;
-    --essential-warning: #000;
-    --essential-positive: #000;
-    --essential-announcement: #000;
-    --decorative-base: #000;
-    /*
-    --decorative-subdued: #F067C3; 
-    */
-    filter: hue-rotate(180deg);
+/* Fix missing black color window */
+.nav-ylx .Root__top-container {
+    background-color: black !important;
 }
 
-.main-genericButton-button.main-genericButton-buttonActive {
-    color: #F067C3 !important;
-}
-
-.main-genericButton-button.main-genericButton-buttonActive:focus, .main-genericButton-button.main-genericButton-buttonActive:hover {
-    color: #F067C3 !important;
-}
-
-.control-button--active {
-    color: #F067C3!important;
-}
-
+/* Choosen playlist text and so many things */
 .encore-dark-theme, .encore-dark-theme .encore-base-set {
-    --background-base: #121212;
-    --background-highlight: #1a1a1a;
-    --background-press: #000;
-    --background-elevated-base: #242424;
-    --background-elevated-highlight: #2a2a2a;
-    --background-elevated-press: #000;
-    --background-tinted-base: hsla(0,0%,100%,.07);
-    --background-tinted-highlight: hsla(0,0%,100%,.1);
-    --background-tinted-press: hsla(0,0%,100%,.04);
-    --background-unsafe-for-small-text-base: #121212;
-    --background-unsafe-for-small-text-highlight: #121212;
-    --background-unsafe-for-small-text-press: #121212;
-    --text-base: #fff;
-    --text-subdued: #a7a7a7;
-    --text-bright-accent: #F067C3;
-    --text-negative: #f15e6c;
-    --text-warning: #ffa42b;
-    --text-positive: #1ed760;
-    --text-announcement: #3d91f4;
-    --essential-base: #fff;
-    --essential-subdued: #727272;
-    --essential-bright-accent: #1ed760;
-    --essential-negative: #e91429;
-    --essential-warning: #ffa42b;
-    --essential-positive: #1ed760;
-    --essential-announcement: #0d72ea;
-    --decorative-base: #fff;
-    --decorative-subdued: #292929;
+    --text-bright-accent: var(--your-color); 
 }
 
-.uWvwXlS0Da1bWsRX6KOw {
-    -webkit-margin-end: 10px;
-    filter: hue-rotate(180deg);
-    margin-inline-end: 10px;
+/* Play pause button playlist */
+.encore-dark-theme .encore-bright-accent-set {
+    --background-base:  var(--default-green); 
+    --background-highlight:  var(--default-green); 
+    --background-press:  var(--default-green); 
+    --background-elevated-base:  var(--default-green); 
+    --background-elevated-highlight:  var(--default-green); 
+    --background-elevated-press:  var(--default-green); 
+    --background-tinted-base:  var(--default-green); 
+    --background-tinted-highlight:  var(--default-green); 
+    --background-tinted-press:  var(--default-green); 
+    --background-unsafe-for-small-text-base:  var(--default-green); 
+    --background-unsafe-for-small-text-highlight:  var(--default-green); 
+    --background-unsafe-for-small-text-press:  var(--default-green); 
+    --decorative-subdued:  var(--default-green); 
+    filter: var(--filter);
 }
 
-.Svg-presentation-textBrightAccent-32-icon {
-    fill: #1abc54;
-    filter: hue-rotate(180deg);
+/* Shuffle button */
+.main-shuffleButton-button.main-shuffleButton-active {
+    color: var(--default-green);
+    filter: var(--filter);
 }
 
-.lyrics-lyricsContent-lyric.lyrics-lyricsContent-active {
-    color: #F067C3;
+.main-shuffleButton-button.main-shuffleButton-active:hover {
+    color: var(--default-green);
+    filter: var(--filter);
 }
 
-.main-addButton-active {
-    color: #F067C3;
+.main-shuffleButton-button.main-shuffleButton-active:not([disabled]):focus:not(:focus-visible,:hover) {
+    color: var(--default-green);
+    filter: var(--filter);
 }
 
+.main-shuffleButton-button.main-shuffleButton-active:not([disabled]):focus, .main-shuffleButton-button.main-shuffleButton-active:not([disabled]):hover {
+    color: var(--default-green);
+    filter: var(--filter);
+}
+
+/* Repeat button */
+.main-repeatButton-button.main-repeatButton-active {
+    color: var(--default-green);
+    filter: var(--filter);
+}
+
+.main-repeatButton-button.main-repeatButton-active:hover {
+    color: var(--default-green);
+    filter: var(--filter);
+}
+
+.main-repeatButton-button.main-repeatButton-active:not([disabled]):focus:not(:focus-visible,:hover) {
+    color: var(--default-green);
+    filter: var(--filter);
+}
+
+.main-repeatButton-button.main-repeatButton-active:not([disabled]):focus, .main-repeatButton-button.main-repeatButton-active:not([disabled]):hover {
+    color: var(--default-green);
+    filter: var(--filter);
+}
+
+/* Equalizer Animated Now Playing in Playlist */
 .main-trackList-playingIcon {
-    position: absolute;
-    filter: hue-rotate(180deg);
+    filter: var(--filter);
 }
 
-.x-settings-equalizerPanelWrapper {
-    height: 200px;
-    position: relative;
-    filter: hue-rotate(180deg);
+/* Bottom left heart button */
+.control-button-heart[aria-checked=true] {
+    filter: var(--filter);
 }
 
-.Svg-img-32-icon * {
-    vector-effect: non-scaling-stroke;
-    filter: hue-rotate(180deg);
+.control-button-heart[aria-checked=false] {
+    filter: var(--filter);
 }
 
-.main-actionBar-ActionBarRow>:not(:last-child) {
-    margin-right: 24px;
-    filter: hue-rotate(180deg);
+/* Heart button in playlist */
+.main-addButton-active:focus, .main-addButton-active:hover {
+    filter: var(--filter);
 }
 
-.Button-md-buttonPrimary-useBrowserDefaultFocusStyle {
-    filter: hue-rotate(180deg);
+/* Now Playing View heart button */
+.main-addButton-active {
+    filter: var(--filter);
+}
+
+/* Now Playing View heart button effect if clicked or unchecked */
+.main-addButton-button {
+    filter: var(--filter);
+}
+
+/* Now Playing View button bottom right */
+.main-genericButton-button {
+    filter: var(--filter);
+}
+
+/* and Queue button */
+.main-genericButton-button.main-genericButton-buttonActive {
+    color: var(--default-green);
+    filter: var(--filter);
+}
+
+/* Connect a device button */
+.control-button--active {
+    color: var(--default-green);
+    filter: var(--filter);
+}
+
+/* Equalizer Animated in Connect a device button */
+.uWvwXlS0Da1bWsRX6KOw {
+    filter: var(--filter);
+}
+
+/* Progress bar or Volume bar */
+.progress-bar {
+    filter: var(--filter);
+}
+
+/* Settings */
+input:checked~.x-toggle-indicatorWrapper {
+    filter: var(--filter);
+}
+
+/* Equalizer in Settings */
+.x-settings-equalizerPanelCanvas {
+    filter: var(--filter);
 }
