@@ -6,7 +6,7 @@
 
 /* Fix missing black color window */
 .nav-ylx .Root__top-container {
-    background-color: black !important;
+    background: #00000085;
 }
 
 /* Choosen playlist text and so many things */
@@ -120,7 +120,12 @@
     filter: var(--filter);
 }
 
-/* Equalizer Animated in Connect a device button */
+/* Connect a device button - PC logo if song paused */
+.Svg-presentation-textBrightAccent-32-icon {
+    fill: var(--default-green);
+}
+
+/* Animated Equalizer in Connect a device button */
 .uWvwXlS0Da1bWsRX6KOw {
     filter: var(--filter);
 }
@@ -137,5 +142,15 @@ input:checked~.x-toggle-indicatorWrapper {
 
 /* Equalizer in Settings */
 .x-settings-equalizerPanelCanvas {
+    filter: var(--filter);
+}
+
+/* Lyrics if synced */
+.lyrics-lyricsContent-lyric.lyrics-lyricsContent-active {
+    filter: var(--filter);
+}
+
+/* Lyrics if unsynced */
+.lyrics-lyricsContent-lyric.lyrics-lyricsContent-unsynced {
     filter: var(--filter);
 }
