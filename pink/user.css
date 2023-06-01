@@ -1,5 +1,5 @@
 :root {
-    --default-green: #1DB954; /* do not change */
+    --default-green: #1DB954; /* do not edit */
     --your-color: #FF77D0;
     --filter: hue-rotate(192deg); 
 }
@@ -132,7 +132,7 @@
 
 /* Progress bar or Volume bar */
 .progress-bar {
-    filter: var(--filter);
+    --is-active-fg-color: var(--your-color);
 }
 
 /* Settings */
@@ -154,3 +154,4 @@ input:checked~.x-toggle-indicatorWrapper {
 .lyrics-lyricsContent-lyric.lyrics-lyricsContent-unsynced {
     filter: var(--filter);
 }
+
