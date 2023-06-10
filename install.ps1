@@ -1,6 +1,6 @@
-$destinationFolder = "$env:APPDATA\spicetify\themes"
+Set-Location "$env:APPDATA\spicetify\themes"
 
-git clone https://github.com/ledoxmedox/pink $destinationFolder
+git clone https://github.com/ledoxmedox/pink
 
 spicetify config current_theme pink
 
