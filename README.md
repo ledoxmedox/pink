@@ -1,11 +1,3 @@
 ```bash
-%appdata%\spicetify\themes
-```
-
-```bash
-git clone https://github.com/ledoxmedox/pink
-```
-
-```bash
-spicetify config current_theme pink
+Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/ledoxmedox/pink/main/install.ps1" | Invoke-Expression
 ```
