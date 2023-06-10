@@ -147,11 +147,20 @@ input:checked~.x-toggle-indicatorWrapper {
 
 /* Lyrics if synced */
 .lyrics-lyricsContent-lyric.lyrics-lyricsContent-active {
-    filter: var(--filter);
+    color: var(--your-color);
 }
 
 /* Lyrics if unsynced */
 .lyrics-lyricsContent-lyric.lyrics-lyricsContent-unsynced {
+    color: var(--your-color);
+}
+
+/* Sort Playlist */
+.main-contextMenu-menuItemButton[role=menuitemradio][aria-checked=true] {
     filter: var(--filter);
 }
 
+/* Heart Liked Songs Artist */
+.SxHlW6byhoJSUJNugaE1 .Kujbn0F68QOf_o44cNxw {
+    filter: var(--filter);
+}
