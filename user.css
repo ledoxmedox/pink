@@ -125,7 +125,7 @@
     fill: var(--default-green);
 }
 
-/* Animated Equalizer in Connect a device button */
+/* Animated Equalizer Current Device */
 .uWvwXlS0Da1bWsRX6KOw {
     filter: var(--filter);
 }
@@ -165,7 +165,7 @@ input:checked~.x-toggle-indicatorWrapper {
     filter: var(--filter);
 }
 
-/* Equalizer Animated Current Devices  */
+/* Animated Equalizer Current Device */
 .main-devicePicker-nowPlayingActiveIcon {
     filter: var(--filter);
 }
