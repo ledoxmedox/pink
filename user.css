@@ -164,3 +164,8 @@ input:checked~.x-toggle-indicatorWrapper {
 .SxHlW6byhoJSUJNugaE1 .Kujbn0F68QOf_o44cNxw {
     filter: var(--filter);
 }
+
+/* Equalizer Animated Current Devices  */
+.main-devicePicker-nowPlayingActiveIcon {
+    filter: var(--filter);
+}
